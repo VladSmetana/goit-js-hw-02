@@ -6,16 +6,12 @@ function getShippingCost(country){
   switch(country){
     case 'China':
       return `Shipping to China will cost ${ticketToChina} credits`;
-      break;
     case 'Chile':
       return `Shipping to Chile will cost ${ticketToChile} credits`;
-      break;
     case 'Australia':
       return `Shipping to Australia will cost ${ticketToAustralia} credits`;
-      break;
     case 'Jamaica':
       return `Shipping to Jamaica will cost ${ticketToJamaica} credits`;
-      break;
     default:
       return`Sorry, there is no delivery to your country`;
   }
